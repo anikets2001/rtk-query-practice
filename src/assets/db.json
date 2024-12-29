@@ -1,0 +1,46 @@
+{
+  "posts": [
+    {
+      "title": "Post1",
+      "body": "Some random post",
+      "userId": 123,
+      "id": 1
+    },
+    {
+      "title": "Post",
+      "body": "Some random post2",
+      "userId": 123,
+      "id": 2
+    },
+    {
+      "id": 184.10282676845458,
+      "title": "my first post",
+      "body": "body is this",
+      "userId": 807.584631806566
+    },
+    {
+      "id": 742.3361078482158,
+      "title": "my second post",
+      "body": "second post body",
+      "userId": 997.310963733331
+    },
+    {
+      "id": 979.5241623625687,
+      "title": "my third post",
+      "body": "my third post body",
+      "userId": 837.6454709073676
+    },
+    {
+      "id": 591.2801470629577,
+      "title": "my third post",
+      "body": "my third post body",
+      "userId": 17.901857783254815
+    },
+    {
+      "id": 310.08483083680204,
+      "title": "my fourth post",
+      "body": "my fourth post body",
+      "userId": 167.18600223219227
+    }
+  ]
+}
