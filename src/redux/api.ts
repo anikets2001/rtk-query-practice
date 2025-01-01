@@ -19,10 +19,6 @@ export const myApi = createApi({
       }),
       invalidatesTags: ["Posts"],
     }),
-
-    // getComments: builder.query<any, void>({
-    //   query: () => "comments",
-    // }),
   }),
 });
 
