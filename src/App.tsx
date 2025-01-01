@@ -1,17 +1,15 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useGetPostsQuery, useNewPostMutation } from "./redux/api";
 import { PostCard } from "./components/PostCard";
 
 const App = () => {
   const { data: posts, isLoading: postsLoading } = useGetPostsQuery();
   const [newPost] = useNewPostMutation();
-  // const { data: comments, isLoading: commentsLoading } = useGetCommentsQuery();
 
   const [title, setTitle] = useState<string>("");
   const [body, setBody] = useState<string>("");
 
   if (postsLoading) return <p>Loading...</p>;
-  // if (commentsLoading) return <p>Loading...</p>;
 
   const submitHandler = (e: any): void => {
     console.log(e);
@@ -51,12 +49,6 @@ const App = () => {
           <PostCard key={item.id} title={item.title} body={item.body} />
         ))}
       </div>
-      {/* <h1>comments</h1>
-      <div>
-        {comments?.map((item: any) => (
-          <PostCard key={item.id} title={item.name} body={item.email} />
-        ))}
-      </div> */}
     </>
   );
 };
